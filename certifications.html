@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<head>
+    <!-- Include jQuery from a CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>certificates</title>
+
+<link rel="stylesheet" href="certificates.css"/>
+</head>
+<body>
+  <div class='ripple-background'>
+    <div class='circle xxlarge shade1'></div>
+    <div class='circle xlarge shade2'></div>
+    <div class='circle large shade3'></div>
+    <div class='circle mediun shade4'></div>
+    <div class='circle small shade5'></div>
+  </div>
+  
+  <!-- Data Science -->
+    <header class="hero">
+  <h1>My Certifications</h1>
+</header>
+<ul class="cards">
+  <li class="title">
+    <h2>My Data Science Certifications</h2>
+  </li>
+  <li class="card card-1"><img src="my certificates\Coursera bigdata.png"/>
+    <div class="content">
+      <h4>Big Data</h4>
+      <p>From Coursera</p>
+    </div>
+  </li>
+  <li class="card card-2"><img src="my certificates\Data science with python.png"/>
+    <div class="content">
+      <h4>Data Science with python</h4>
+      <p>From FreeCodeCamp</p>
+    </div>
+  </li>
+  <li class="card card-3"><img src="my certificates\Futureskills prime.png"/>
+    <div class="content">
+      <h4>Data Analytics</h4>
+      <p>From FutureSkills Prime</p>
+    </div>
+  </li>
+  <li class="card card-4"><img src="my certificates\introduction to data science.jpeg" style="height:150px; width: 200px;"/>
+    <div class="content">
+      <h4>Introduction to dataScince</h4>
+      <p>From IBM(edx)</p>
+    </div>
+  </li>
+  <li class="card card-5"><img src="my certificates\statistical thinking for data science.jpeg"style="height:150px; width: 200px;"/>
+    <div class="content">
+      <h4>Statistical thinking for DS</h4>
+      <p>From Columbiax</p>
+    </div>
+  </li>
+</ul>
+<hr/>
+<!-- 2nd column for infosys certificates -->
+<ul class="cards-split">
+  <li class="title">
+    <h2>My Infosys online courses</h2>
+  </li>
+  <li class="card card-1"><img src="my certificates\DBMS1_infosys.png"/>
+    <div class="content">
+      <h3>Database Management Systems-1</h3>
+    </div>
+  </li>
+  <li class="card card-2"><img src="my certificates\DBMS2_infosys.jpg"/>
+    <div class="content">
+      <h3>Database Management Systems-2</h3>
+    </div>
+  </li>
+  <li class="card card-3"><img src="my certificates\Infosys Html.png"/>
+    <div class="content">
+      <h3>HTML</h3>
+    </div>
+  </li>
+  <li class="card card-4"><img src="my certificates\Infosys java.png"/>
+    <div class="content">
+      <h3>Java Programming</h3>
+    </div>
+  </li>
+  <li class="card card-5"><img src="my certificates\Infosys time management.png"/>
+    <div class="content">
+      <h3>Time Management</h3>
+    </div>
+  </li>
+</ul>
+<hr/>
+<!-- My Programming certifications -->
+<ul class="cards-split-delay">
+  <li class="title">
+    <h2>MY PROGRAMMING CERTIFICATIONS</h2>
+  </li>
+  <li class="card card-1"><img src="my certificates\Skillup python.jpg"/>
+    <div class="content">
+      <h3>Python</h3>
+      <p>From Skillup</p>
+    </div>
+  </li>
+  <li class="card card-2"><img src="my certificates\NPTEL C programming.png"/>
+    <div class="content">
+      <h3>C language</h3>
+      <p>From NPTEL</p>
+    </div>
+  </li>
+  <li class="card card-3"><img src="my certificates\Skillrack SQL.png"/>
+    <div class="content">
+      <h3>My SQL</h3>
+      <p>From SKillrack</p>
+    </div>
+  </li>
+  <li class="card card-4"><img src="my certificates\Fundamental Algorithms_ Design and Analysis.jpg"/>
+    <div class="content">
+      <h4>Fundamental Algorithms , Design and Analysis</h4>
+      <p>From NPTEL</p>
+    </div>
+  </li>
+  <li class="card card-5"><img src="My aceivements\TATA DV.jpg"/>
+    <div class="content">
+      <h4>Data Visualization</h4>
+      <p>From TATA</p>
+    </div>
+  </li>
+</ul>
+<hr/>
+<!-- Other certifications -->
+<ul class="cards-split-delay">
+  <li class="title">
+    <h2>MY OTHER CERTIFICATIONS</h2>
+  </li>
+  <li class="card card-1"><img src="my certificates\Backend _ fcc.png"/>
+    <div class="content">
+      <h3>Backend Api</h3>
+      <p>From FreeCodeCamp</p>
+    </div>
+  </li>
+  <li class="card card-2"><img src="my certificates\managing money.png"/>
+    <div class="content">
+      <h3>Money Management</h3>
+      <p>From Train India</p>
+    </div>
+  </li>
+  <li class="card card-3"><img src="my certificates\stock market -elearn.png"/>
+    <div class="content">
+      <h3>Stock Market</h3>
+      <p>From ELearn</p>
+    </div>
+  </li>
+  <li class="card card-4"><img src="my certificates\certificate of Mern stack.jpg"/>
+    <div class="content">
+      <h4>Mern Stack</h4>
+      <p>From NULL STACK</p>
+    </div>
+  </li>
+  <li class="card card-5"><img src="My aceivements\Coignagent azile.png"/>
+    <div class="content">
+      <h4>Azile Development</h4>
+      <p>From CTS</p>
+    </div>
+  </li>
+</ul>
+
+<script>
+    jQuery(document).ready(function ($) {
+      $("ul.cards").on("click", function () {
+        $(this).toggleClass("transition");
+      });
+    
+      $("ul.card-stacks").on("click", function () {
+        $(this).toggleClass("transition");
+      });
+    
+      $("ul.cards-split").on("click", function () {
+        $(this).toggleClass("transition");
+      });
+    
+      $("ul.cards-split-delay").on("click", function () {
+        $(this).toggleClass("transition");
+      });
+    });
+    
+    </script>
+</body>
+</html>
